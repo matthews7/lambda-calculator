@@ -20,3 +20,28 @@
     padding-right: 8%;
     font-size: 5.0rem;
   }
+
+.width{
+    width: 400px;
+    margin: 0 auto;
+}
+.blue{
+    background-color: blue;
+}
+.flex{
+    display:flex;
+}
+.button-width{
+    width:40px;
+}
+
+.operator{
+    width:20%;
+
+}
+.special{
+    width: 25%;
+}
+.numbers{
+    width: 25%;
+}
