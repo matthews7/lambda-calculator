@@ -19,4 +19,57 @@
     align-items: flex-end;
     padding-right: 8%;
     font-size: 5.0rem;
+    margin-left:5%;
   }
+
+.flex{
+    display:flex;
+    /* flex-direction: column; */
+    /* border: 2px solid gray; */
+    padding-left: 10%;
+    margin-top: 3%;
+}
+.special{
+    /* border: 2px solid gray; */
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.special-btn{
+    width: 30%;
+}
+.normal-buttons{
+    width: 75%;
+}
+.numbers{
+    /* border: 2px solid gray; */
+    width: 100%;
+}
+.numbers-btn{
+    width: 30%;
+    border-radius: 50%;
+}
+
+.operators{
+    display:flex;
+    /* flex-direction: column */
+    /* border: 2px solid gray; */
+    width: 20%;
+    padding-left: 10px;
+}
+.operator-btn{
+    display:flex;
+    justify-content: center;
+    height: 18%;
+    margin-bottom: 8%;
+    /* border-radius: 40%; */
+
+}
+button{
+    margin: 1%;
+    width: 80px;
+    font-size:2rem;
+    border-radius: 50%;
+    background-color:blue;
+}
