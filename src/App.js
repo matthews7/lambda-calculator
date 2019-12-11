@@ -24,22 +24,28 @@ function App() {
   return (
     <div className="container">
       <Logo />
-      
-      <div className="App">
-        <div className="display width">
+      <div className="display width">
         <Display total={calculator}/>
         </div>
-        <div className="width">
-        <Specials  />
-        <Numbers total={calculator} set={setCalculator}/>
-        <div className="operators">
-        <Operators />
-        </div>
-        </div>
+      <div className="App">
+        <div className="flex">
+          <div className="normal-buttons">
+            <div className="special">
+              <Specials  />
+            </div>
+            <div className="numbers">
+              <Numbers total={calculator} set={setCalculator}/>
+            </div>  
+          </div>
+          <div className="operators">
+            <Operators />
+          </div>
+        </div>  
+      </div>
         
         {/* STEP 4 - Render your components here and be sure to properly import/export all files */}
       </div>
-    </div>
+    
   );
 }
 

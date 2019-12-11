@@ -6,7 +6,7 @@ const NumberButton = (props) => {
     <button onClick={ () => {
       props.set(props.total + props.button)
     }
-  } className="numbers">
+  } className="numbers-btn">
     {props.button}
       {/* Display a button element rendering the data being passed down from the parent container on props */}
     </button>

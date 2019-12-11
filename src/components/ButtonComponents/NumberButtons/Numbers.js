@@ -15,7 +15,7 @@ const Numbers = (props) => {
 
   
   return (
-    <div>
+    <div >
       {numberState.map((number,index) => (
         <NumbersButton total={props.total} set={props.set} key={index} button={number}/>
       ))}
